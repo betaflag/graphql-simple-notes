@@ -1,0 +1,30 @@
+.sidebar {
+  background: var(--color-background);
+  color: var(--color-on-background);
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #424242;
+}
+
+@media (min-width: 767px) {
+  .sidebar {
+    width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    display: none;
+  }
+}
+
+.sidebar-header {
+  display: flex;
+  padding: 20px 10px;
+}
+
+.sidebar-search {
+  flex-grow: 1;
+  margin-right: 10px;
+}

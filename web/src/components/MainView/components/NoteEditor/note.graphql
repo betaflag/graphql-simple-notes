@@ -1,0 +1,8 @@
+query note($id: ID!) {
+  note(id: $id) {
+    id
+    title
+    content
+    date
+  }
+}

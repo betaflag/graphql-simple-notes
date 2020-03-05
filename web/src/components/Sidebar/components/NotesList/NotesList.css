@@ -1,0 +1,24 @@
+.list {
+  margin: 10px 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: scroll;
+}
+
+.list li {
+  padding: 15px 20px;
+  border-bottom: 1px solid #424242;
+  cursor: pointer;
+}
+
+.list li.selected {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.2, 1);
+}
+
+.list .list-description {
+  margin-top: 4px;
+  font-size: 12px;
+  filter: brightness(85%);
+}

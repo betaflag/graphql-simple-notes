@@ -1,0 +1,9 @@
+query notes($query: String) {
+  notes(query: $query) {
+    id
+    title
+    content
+    date
+  }
+  selectedNote @client
+}

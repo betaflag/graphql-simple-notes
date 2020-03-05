@@ -1,0 +1,33 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.app {
+  --color-surface: #fff;
+  --color-background: #fff;
+  --color-primary: #6200ee;
+  --color-secondary: #03dac6;
+  --color-on-background: #000;
+  --color-on-primary: #fff;
+  --color-on-secondary: #000;
+  --color-on-surface: #000;
+}
+
+.app.dark {
+  --color-surface: #424242;
+  --color-background: #212121;
+  --color-primary: #bb86fc;
+  --color-secondary: #03dac6;
+  --color-on-background: #fff;
+  --color-on-primary: #fff;
+  --color-on-secondary: #000;
+  --color-on-surface: #fff;
+}
+
+.style-switcher {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}

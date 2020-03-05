@@ -1,0 +1,43 @@
+.button {
+  height: 32px;
+  user-select: none;
+  text-align: center;
+  margin: 0 2px;
+  border: 0;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.2, 1);
+  cursor: pointer;
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  text-shadow: 0 -1px 0 #0000001f;
+  box-shadow: 0 2px 0 #0000000b;
+  font-size: 14px;
+  padding: 4px 15px;
+  display: inline-block;
+}
+
+.button-secondary {
+  background: var(--color-secondary);
+  color: var(--color-on-secondary);
+}
+
+.button,
+.button:focus,
+.button:active {
+  outline: 0;
+}
+
+.button:hover,
+.button:focus {
+  filter: brightness(115%);
+}
+
+.button:active {
+  filter: brightness(70%);
+}
+
+.button-circle {
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 50%;
+  min-width: 32px;
+}
