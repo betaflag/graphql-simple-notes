@@ -2,15 +2,18 @@ This is a simple note application using React, GraphQL and MongoDB. I've created
 
 Features:
 
+- Uses Create React App
+- Typescript
 - Persistence using MongoDB
 - Full text search
-- Local cache
-- Responsive
+- Client caching
+- Responsive (platform specific flows and layouts)
 - Light & dark themes
 - GraphQL code generation
 - Docker image for database (no need to install MongoDB)
-
-I've also focused on using few dependencies as possible but just enough to keep things simple.
+- Decoupled resolvers with reusable services
+- No UI framework, custom handcrafted components
+- Focused on using few dependencies as possible but just enough to keep things simple.
 
 ![Demo](demo.gif)
 
