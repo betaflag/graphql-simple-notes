@@ -5,6 +5,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc",
     "dev": "ts-node-dev --no-notify --transpileOnly --ignore-watch node_modules --respawn src/index.ts"
   },
   "devDependencies": {
