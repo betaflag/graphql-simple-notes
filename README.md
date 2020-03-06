@@ -10,7 +10,7 @@ Features:
 - Responsive (platform specific flows and layouts)
 - Light & dark themes
 - GraphQL code generation
-- Docker image for database (no need to install MongoDB)
+- Docker image for easy deploys
 - Decoupled resolvers with reusable services
 - No UI framework, custom handcrafted components
 - Focused on using few dependencies as possible but just enough to keep things simple.
@@ -23,9 +23,7 @@ Start the server
 
 ```bash
 cd api
-yarn install
 docker-compose up -d
-yarn dev
 ```
 
 Default environment variables:
